@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background: #FBE4FF;
+    width: 1920;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans';
+}
+
+div, p, h1, h4{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.backgraund__nav{
+    display: flex;
+    width: 1920px;
+    height: 65px;
+    background: #243B93;
+}
+
+.logo{
+    width: 140px;
+    height: 50px;
+    background: url(/img/лого.png);
+    background-repeat: no-repeat;
+    margin-left: 299px;
+    margin-top: 7px;
+}
+
+.logo:hover{
+    transform: scale(1.3);
+}
+
+.list>ul{
+    height: 18.8px;
+    list-style: none;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.16em;
+    margin-top: 23.45px;
+    margin-left: 158px;
+}
+
+.nav{
+    width: 170px;
+    height: 18.8px;
+}
+
+.nav:nth-child(5){
+    width: 170px;
+    height: 37.61px;
+}
+
+.nav:hover{
+    transform: scale(1.1);
+}
+
+.lang{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.globus{
+    width: 55.56px;
+    height: 50px;
+    margin-left: 57px;
+    margin-top: 7px;
+    display: flex;
+}
+
+.ua{
+    width: 35px;
+    height: 13px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    margin-left: 9.44px;
+    margin-top: 26px;
+}
+
+.lang:hover{
+    transform: scale(1.05);
+}
+
+.backgraund__title{
+    width: 1920px;
+    height: 85px;
+    background: #BFF0FF;
+}
+
+.title{
+    width: 469px;
+    height: 57px;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 2;
+    display: flex;
+    color: #202846;
+    margin-left: 299px;
+}
+
+.section__filling{
+    width: 1321px;
+    height: 57px;
+    background: white;
+    margin-left: 299px;
+    margin-top: 27px;
+}
+
+.section__title{
+    font-family: 'PT Sans';
+    width: 342px;
+    height: 36px;
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.61);
+    line-height: 2;
+    margin-left: 501px;
+}
+
+.cards{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 1321px;
+    height: 300px;
+    background: linear-gradient(92.95deg, #ADCBD5 0%, #00AEE6 100%);
+    margin-top: 42px;
+    margin-left: 299px;
+    display: flex;
+    position: relative;
+}
+
+.card:nth-child(1){
+    margin-top: 30px;
+}
+
+.card__img{
+    width: 447px;
+    height: 246px;
+    margin: 33px 30px 21px 52px;
+}
+
+.card__img:hover{
+    transform: scale(1.1);
+}
+
+h4{
+    width: 739px;
+    height: 47px;
+    color: #353C57;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #FFFFFF;
+    margin-top: 10px;
+}
+
+.card__description{
+    width: 739px;
+    height: 205px;
+    background: #EDFBFF;
+    margin-top: 10px;
+}
+
+p{
+    width: 605px;
+    height: 112px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    color: #202846;
+    padding-top: 12px;
+    margin-left: 16px;
+}
+
+.star{
+    width: 48px;
+    height: 46px;
+    background-image: url(/img/зірка.png);
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+
+.button{
+    width: 210px;
+    height: 46px;
+    background: #243B93;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 11px;
+    left: 1144px;
+}
+
+.button a{
+    width: 140px;
+    height: 31px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 2;
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 45px;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+
+.card:hover{
+    background: #2CBDEB;
+    box-shadow: 0px 0px 60px 4px #2CBDEB;
+}
+
+.card:hover>.star{
+    background-image: url(/img/зіркаЖ.png);
+}
+
+.card:hover>.button{
+    background: #EF075B;;
+}
+
+.button__up{
+    width: 101px;
+    height: 101px;
+    background: rgba(48, 12, 106, 0.3);
+    border-radius: 50%;
+    background-image: url(/img/стрілка.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-left: 1581px;
+    position: absolute;
+}
+
+.button__up:hover{
+    transform: scale(1.2);
+}
