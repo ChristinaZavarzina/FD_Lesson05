@@ -4,6 +4,7 @@
 
 html{
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 body{
@@ -34,7 +35,7 @@ a{
 .logo{
     width: 140px;
     height: 50px;
-    background: url(/img/лого.png);
+    background: url(../img/лого.png);
     background-repeat: no-repeat;
     margin-left: 299px;
     margin-top: 7px;
@@ -215,7 +216,7 @@ p{
 .star{
     width: 48px;
     height: 46px;
-    background-image: url(/img/зірка.png);
+    background-image: url(../img/зірка.png);
     position: absolute;
     top: 6px;
     right: 10px;
@@ -255,7 +256,7 @@ p{
 }
 
 .card:hover>.star{
-    background-image: url(/img/зіркаЖ.png);
+    background-image: url(../img/зіркаЖ.png);
 }
 
 .card:hover>.button{
@@ -267,7 +268,7 @@ p{
     height: 101px;
     background: rgba(48, 12, 106, 0.3);
     border-radius: 50%;
-    background-image: url(/img/стрілка.png);
+    background-image: url(../img/стрілка.png);
     background-repeat: no-repeat;
     background-position: 50%;
     margin-left: 1581px;
