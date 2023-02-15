@@ -3,16 +3,16 @@
 }
 
 html{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 body{
+    width: 100%;
     background: #FBE4FF;
-    min-width: 1920px;
     margin: 0 auto;
     padding: 0;
-    font-family: 'PT Sans';
-    /* overflow-x: hidden; */
+    font-family: 'PT Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 div, p, h1, h4{
@@ -25,42 +25,46 @@ a{
     color: #FFFFFF;
 }
 
-.backgraund__nav{
-    display: flex;
-    width: 100%;
+/* font-family: 'PT Sans', sans-serif; */
+/* Start header */
+
+.head{
     height: 65px;
     background: #243B93;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header__nav, .list{
+    display: flex;
+}
+
+.header__nav{
+    justify-content: space-between;
     margin: 0 auto;
 }
 
 .logo{
-    width: 140px;
-    height: 50px;
-    margin-left: 18.5rem;
     margin-top: 7px;
 }
 
-.logo:hover{
-    transform: scale(1.2);
-}
-
 .list>ul{
-    width: 85%;
-    height: 18.8px;
+    width: 100%;
     list-style: none;
-    font-family: 'PT Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: .8rem;
     line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.16em;
-    margin-top: 23px;
-    margin-bottom: 22px;
-    margin-left: 158px;
     padding: 0;
+    margin: 0 auto;
 }
 
 .nav{
@@ -77,77 +81,37 @@ a{
     transform: scale(1.1);
 }
 
-.lang{
-    list-style: none;
-    display: flex;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.globus{
-    width: 55.56px;
-    height: 50px;
-    margin-left: 57px;
-    margin-top: 7px;
-    display: flex;
-    line-height: 1;
-}
-
-.ua{
-    width: 35px;
-    height: 13px;
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    align-items: center;
-    color: #FFFFFF;
-    display: flex;
-    margin-left: 9.44px;
-    margin-top: 26px;
-}
-
 .globus:hover, .ua:hover{
     transform: scale(1.1);
 }
 
+/* end header */
+/* start main */
+
 .backgraund__title{
-    width: 100%;
     height: 85px;
     background: #BFF0FF;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .title{
-    width: 470px;
-    height: 57px;
-    font-family: 'PT Sans';
+    width: 80%;
     font-style: italic;
     font-weight: 400;
-    font-size: 44px;
-    line-height: 2;
-    display: flex;
+    font-size: 2.2rem;
+    line-height: 1.7;
     color: #202846;
-    margin-left: 18.5rem;
-    margin-right: 0;
 }
 
 .section__filling{
-    width: 1321px;
-    height: 57px;
+    width: 80%;
     background: white;
-    align-items: center;
-    margin-left: 18.5rem;
-    margin-right: 0;
-    margin-top: 27px;
+    margin: 30px auto;
 }
 
 .section__title{
-    font-family: 'PT Sans';
-    width: 342px;
-    height: 36px;
     font-style: normal;
-    font-size: 28px;
+    font-size: 1.4rem;
     text-align: center;
     color: rgba(0, 0, 0, 0.61);
     line-height: 2;
@@ -159,11 +123,11 @@ a{
 }
 
 .card{
-    width: 1321px;
+    width: 80%;
     height: 300px;
     background: linear-gradient(92.95deg, #ADCBD5 0%, #00AEE6 100%);
+    display: flex;
     margin-top: 42px;
-    margin-left: 18.5rem;
     display: flex;
     position: relative;
     align-items: center;
@@ -172,50 +136,41 @@ a{
 .card:nth-child(1){
     margin-top: 30px;
 }
-
 .card__img{
-    width: 447px;
-    height: 246px;
-    margin: 33px 30px 21px 52px;
-}
-
-.card__img:hover{
-    transform: scale(1.1);
+    width: 30%;
+    padding: 30px;
 }
 
 h4{
-    width: 739px;
-    height: 47px;
+    width: 70%;
     color: #353C57;
-    font-family: 'PT Sans';
     font-style: italic;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 1.8rem;
     display: flex;
-    align-items: center;
     border-bottom: 3px solid #FFFFFF;
-    margin-top: 10px;
+    margin-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .card__description{
-    width: 739px;
+    width: 70%;
     height: 205px;
     background: #EDFBFF;
     margin-top: 10px;
+    margin-right: 55px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 p{
-    width: 605px;
     height: 112px;
-    font-family: 'PT Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    display: flex;
+    font-size: 1.1rem;
     color: #202846;
-    padding-top: 12px;
-    margin-left: 16px;
 }
 
 .star{
@@ -228,27 +183,23 @@ p{
 }
 
 .button{
-    width: 210px;
+    width: 15%;
     height: 46px;
     background: #243B93;
     border-radius: 30px;
     position: absolute;
     bottom: 11px;
-    left: 1144px;
+    left: 960px;
 }
 
 .button a{
-    width: 140px;
-    height: 31px;
-    font-family: 'PT Sans';
+    width: 40%;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 2;
-    display: flex;
-    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.8;
     color: #FFFFFF;
-    margin-left: 45px;
+    padding-left: 22px;
 }
 
 .button:hover{
@@ -276,8 +227,9 @@ p{
     background-image: url(../img/стрілка.png);
     background-repeat: no-repeat;
     background-position: 50%;
-    margin-left: 95rem;
     position: absolute;
+    right: 70px;
+    top: 1450px;
 }
 
 .button__up:hover{
