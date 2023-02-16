@@ -128,41 +128,32 @@ a{
     background: linear-gradient(92.95deg, #ADCBD5 0%, #00AEE6 100%);
     display: flex;
     margin-top: 42px;
-    display: flex;
     position: relative;
-    align-items: center;
 }
 
 .card:nth-child(1){
     margin-top: 30px;
 }
 .card__img{
-    width: 30%;
     padding: 30px;
 }
 
 h4{
-    width: 70%;
     color: #353C57;
     font-style: italic;
     font-weight: 700;
     font-size: 1.8rem;
     display: flex;
     border-bottom: 3px solid #FFFFFF;
-    margin-right: 55px;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 53px;
 }
 
 .card__description{
-    width: 70%;
     height: 205px;
     background: #EDFBFF;
     margin-top: 10px;
-    margin-right: 55px;
-    margin-bottom: 30px;
-    padding-left: 10px;
-    padding-top: 10px;
+    margin-right: 53px;
 }
 
 p{
@@ -171,6 +162,7 @@ p{
     font-weight: 400;
     font-size: 1.1rem;
     color: #202846;
+    margin: 10px;
 }
 
 .star{
@@ -183,23 +175,20 @@ p{
 }
 
 .button{
-    width: 15%;
     height: 46px;
     background: #243B93;
     border-radius: 30px;
     position: absolute;
     bottom: 11px;
-    left: 960px;
+    right: -30px;
 }
 
 .button a{
-    width: 40%;
     font-style: normal;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.8;
-    color: #FFFFFF;
-    padding-left: 22px;
+    padding: 0px 22px;
 }
 
 .button:hover{
@@ -235,3 +224,5 @@ p{
 .button__up:hover{
     transform: scale(1.2);
 }
+
+/* end main */
